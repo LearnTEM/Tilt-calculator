@@ -13,7 +13,7 @@ def rotate(event: ValueChangeEventArguments):
 
 def calculate():
     data.calculate()
-    ui.notify(f"α={data.alpha2}\nβ={data.beta2}")
+    ui.notify(f"α={data.alpha2:.2f}\nβ={data.beta2:.2f}")
 
 data = TiltData()
 
